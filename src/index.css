@@ -1,0 +1,84 @@
+/* Colores y fuentes de toda la app (variables CSS) */
+:root {
+  --verde: #2d6a3e;
+  --verde-oscuro: #1d3f27;
+  --verde-claro: #dce8d5;
+  --verde-suave: #e8f0e3;
+  --fondo: #f3f5ef;
+  --blanco: #ffffff;
+  --texto: #17201a;
+  --texto-suave: #4a5a4e;
+  --borde: #dce3d6;
+  --tierra: #7a3f14;
+  --tierra-claro: #f6eadb;
+  --rojo: #b83a1e;
+  --fuente-titulos: 'Bricolage Grotesque', system-ui, sans-serif;
+  --fuente-texto: 'Figtree', system-ui, sans-serif;
+  --radio: 16px;
+  --ancho-max: 1200px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--fuente-texto);
+  background: var(--fondo);
+  color: var(--texto);
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: var(--fuente-titulos);
+  line-height: 1.1;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+a { color: var(--verde); }
+a:hover { color: var(--verde-oscuro); }
+img { max-width: 100%; display: block; }
+button { font-family: inherit; }
+
+/* Clases globales reutilizables */
+.contenedor {
+  max-width: var(--ancho-max);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 22px;
+  border: none;
+  border-radius: 12px;
+  background: var(--verde);
+  color: var(--blanco);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.boton:hover { background: var(--verde-oscuro); color: var(--blanco); }
+.boton:disabled { background: #9aa79d; cursor: not-allowed; }
+
+.botonSecundario {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0 20px;
+  border: 1px solid #c9d6c1;
+  border-radius: 12px;
+  background: var(--blanco);
+  color: var(--texto);
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.botonSecundario:hover { background: var(--verde-suave); color: var(--texto); }

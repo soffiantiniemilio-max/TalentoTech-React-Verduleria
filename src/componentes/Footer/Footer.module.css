@@ -1,0 +1,50 @@
+.footer {
+  background: var(--verde-oscuro);
+  color: var(--blanco);
+  padding-top: 48px;
+  margin-top: 64px;
+}
+.columnas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 32px;
+}
+.columna { display: flex; flex-direction: column; gap: 8px; }
+.marca { font-size: 24px; }
+.subtitulo { font-family: var(--fuente-texto); font-size: 16px; letter-spacing: 0; }
+.texto { margin: 0; color: #d5e3d0; font-size: 15px; }
+.equipo { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.tarjeta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #2a5535;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--verde-claro);
+  color: var(--verde-oscuro);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.nombre { display: block; font-weight: 600; font-size: 15px; }
+.rol { display: block; font-size: 13px; color: #c5d7bf; }
+.legal {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  border-top: 1px solid #3a6646;
+  font-size: 13px;
+  color: #c5d7bf;
+}

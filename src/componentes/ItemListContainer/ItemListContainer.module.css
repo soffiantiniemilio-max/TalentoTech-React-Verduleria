@@ -1,0 +1,17 @@
+.contenedor { display: flex; flex-direction: column; gap: 24px; }
+.filtros { display: flex; flex-wrap: wrap; gap: 8px; }
+.filtro {
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid #c9d6c1;
+  border-radius: 999px;
+  background: var(--blanco);
+  color: var(--texto);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.filtro:hover { background: var(--verde-suave); }
+.activo, .activo:hover { background: var(--verde-oscuro); border-color: var(--verde-oscuro); color: var(--blanco); }
+.estado { padding: 24px 0; color: var(--texto-suave); font-size: 17px; }
+.error { color: var(--rojo); font-weight: 600; }

@@ -1,0 +1,45 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  align-items: center;
+  padding-top: 56px;
+  padding-bottom: 48px;
+}
+.heroTexto { display: flex; flex-direction: column; gap: 20px; }
+.etiqueta {
+  align-self: flex-start;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: var(--verde-claro);
+  color: var(--verde-oscuro);
+  font-size: 14px;
+  font-weight: 700;
+}
+.titulo { font-size: clamp(40px, 6vw, 60px); font-weight: 800; }
+.bajada { margin: 0; font-size: 19px; color: var(--texto-suave); max-width: 480px; }
+.botones { display: flex; flex-wrap: wrap; gap: 12px; }
+.heroImagen { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 24px; }
+.sinFoto { display: flex; align-items: center; justify-content: center; background: var(--verde-claro); font-size: 64px; }
+.pasos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding-bottom: 48px;
+}
+.paso {
+  padding: 24px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+.paso h3 { font-size: 20px; margin-bottom: 8px; }
+.paso p { margin: 0; color: var(--texto-suave); }
+.seccion { display: flex; flex-direction: column; gap: 24px; padding-top: 16px; padding-bottom: 56px; }
+.encabezado { display: flex; align-items: flex-end; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+.encabezado h2 { font-size: 36px; }
+.encabezado p { margin: 6px 0 0; color: var(--texto-suave); }
+.verTodos { font-weight: 700; }
+.regionales { background: var(--tierra-claro); border-top: 1px solid #e8d5bd; padding-top: 40px; }
+.etiquetaTierra { display: inline-block; margin-bottom: 10px; font-size: 14px; font-weight: 700; color: var(--tierra); }
+.tituloTierra { color: #3b1f0b; }

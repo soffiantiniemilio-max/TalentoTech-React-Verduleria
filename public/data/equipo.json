@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Emilio Soffiantini", "rol": "Desarrollo web" },
+  { "id": 2, "nombre": "Marta", "rol": "Atención y pedidos" },
+  { "id": 3, "nombre": "Julián", "rol": "Reparto en el barrio" }
+]
