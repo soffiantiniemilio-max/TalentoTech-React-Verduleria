@@ -37,4 +37,26 @@ src/
   paginas/              ← Inicio, Productos, NotFound
 ```
 
-Fotos: [Pexels](https://www.pexels.com) (licencia libre).
+## Créditos de imágenes
+
+Todas las fotos son de [Pexels](https://www.pexels.com) y se usan bajo la [licencia de Pexels](https://www.pexels.com/license/) (uso libre, sin atribución obligatoria).
+
+| Producto | Archivo | Foto original |
+|---|---|---|
+| Tomate perita | `tomate.jpg` | https://www.pexels.com/photo/10112127/ |
+| Papa | `papa.jpg` | https://www.pexels.com/photo/10899606/ |
+| Cebolla | `cebolla.jpg` | https://www.pexels.com/photo/6316541/ |
+| Zanahoria | `zanahoria.jpg` | https://www.pexels.com/photo/16812115/ |
+| Lechuga criolla | `lechuga.jpg` | https://www.pexels.com/photo/28524414/ |
+| Zapallito redondo | `zapallito.jpg` | https://www.pexels.com/photo/7511818/ |
+| Frutilla | `frutilla.jpg` | https://www.pexels.com/photo/18018686/ |
+| Banana | `banana.jpg` | https://www.pexels.com/photo/4399936/ |
+| Manzana roja | `manzana.jpg` | https://www.pexels.com/photo/12955951/ |
+| Limón | `limon.jpg` | https://www.pexels.com/photo/1414122/ |
+| Portada (Inicio) | `cajon-verduras.jpg` | https://www.pexels.com/photo/1691180/ |
+| Aceite de oliva | `aceite-oliva.jpg` | https://www.pexels.com/photo/25745504/ |
+| Aceitunas verdes | `aceitunas.jpg` | https://www.pexels.com/photo/13922328/ |
+| Pasas de uva | `pasas.jpg` | https://www.pexels.com/photo/12945019/ |
+| Dulce de rosa mosqueta | `rosa-mosqueta.jpg` | https://www.pexels.com/photo/7586251/ |
+| Dulce de calafate | `calafate.jpg` | https://www.pexels.com/photo/14218061/ |
+| Hongos de pino | `hongos.jpg` | https://www.pexels.com/photo/7717477/ |
